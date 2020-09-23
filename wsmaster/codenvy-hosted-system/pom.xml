@@ -71,6 +71,7 @@
         <dependency>
             <groupId>org.eclipse.che.plugin</groupId>
             <artifactId>che-plugin-docker-client</artifactId>
+            <version>${che.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>gwt-user</artifactId>
